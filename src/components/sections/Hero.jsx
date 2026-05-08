@@ -17,7 +17,8 @@ function Hero() {
           Gimnasio premium
         </p>
 
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-black uppercase max-w-4xl leading-none">
+        <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black uppercase max-w-4xl leading-tight md:leading-none">
+
           Transformá tu cuerpo. Superá tus límites.
         </h1>
 

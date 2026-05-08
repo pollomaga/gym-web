@@ -37,8 +37,10 @@ function Classes() {
             </div>
           </div>
 
-          <div className="overflow-hidden border border-white/10">
-            <table className="w-full border-collapse text-left text-sm">
+         <div className="overflow-x-auto border border-white/10">
+
+            <table className="min-w-[640px] w-full border-collapse text-left text-sm">
+
               <thead className="bg-lime-400 text-black">
                 <tr>
                   <th className="p-4">Clase</th>

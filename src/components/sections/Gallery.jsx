@@ -19,7 +19,8 @@ function Gallery() {
           </p>
         </div>
 
-        <div className="grid gap-4 md:grid-cols-4 auto-rows-[260px]">
+        <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-4 auto-rows-[220px] md:auto-rows-[260px]">
+
           {galleryImages.map((item, index) => (
             <article
               key={item.title}

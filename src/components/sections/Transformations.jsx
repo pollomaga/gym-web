@@ -25,7 +25,8 @@ function Transformations() {
               key={item.name}
               className="bg-black border border-white/10 overflow-hidden"
             >
-              <div className="grid grid-cols-2 min-h-80">
+              <div className="grid grid-cols-1 sm:grid-cols-2 min-h-80">
+
                 <div className="bg-zinc-900 p-6 flex items-end">
                   <span className="text-white/50 font-black uppercase tracking-[0.2em] text-sm">
                     {item.beforeLabel}

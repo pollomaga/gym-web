@@ -1,6 +1,7 @@
 function Button({ href, children, variant = 'primary' }) {
   const baseClasses =
-    'inline-flex items-center justify-center px-6 py-4 font-black uppercase text-sm transition text-center'
+  'inline-flex w-full sm:w-auto items-center justify-center px-6 py-4 font-black uppercase text-sm transition text-center'
+
 
   const variants = {
     primary: 'bg-lime-400 text-black hover:bg-white',
