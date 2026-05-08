@@ -19,7 +19,7 @@ function Hero() {
 
         <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black uppercase max-w-4xl leading-tight md:leading-none">
 
-          Transformá tu cuerpo. Superá tus límites.
+          Transformá tu cuerpo.
         </h1>
 
         <p className="mt-6 max-w-2xl text-lg text-white/70 leading-8">
